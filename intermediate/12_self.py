@@ -9,4 +9,4 @@ import typing
 
 class Foo:
     def return_self(self) -> typing.Self:
-        ...
+        return self
